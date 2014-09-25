@@ -1,0 +1,476 @@
+Aug 21, 2012 5:04:42 PM org.apache.coyote.http11.Http11AprProtocol init
+INFO: Initializing Coyote HTTP/1.1 on http-8080
+Aug 21, 2012 5:04:42 PM org.apache.coyote.ajp.AjpAprProtocol init
+INFO: Initializing Coyote AJP/1.3 on ajp-8009
+Aug 21, 2012 5:04:42 PM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 1901 ms
+Aug 21, 2012 5:04:42 PM org.apache.catalina.core.StandardService start
+INFO: Starting service Catalina
+Aug 21, 2012 5:04:42 PM org.apache.catalina.core.StandardEngine start
+INFO: Starting Servlet Engine: Apache Tomcat/5.5.25
+Aug 21, 2012 5:04:42 PM org.apache.catalina.core.StandardHost start
+INFO: XML validation disabled
+Aug 21, 2012 5:04:46 PM org.apache.coyote.http11.Http11AprProtocol start
+INFO: Starting Coyote HTTP/1.1 on http-8080
+Aug 21, 2012 5:04:46 PM org.apache.coyote.ajp.AjpAprProtocol start
+INFO: Starting Coyote AJP/1.3 on ajp-8009
+Aug 21, 2012 5:04:46 PM org.apache.catalina.storeconfig.StoreLoader load
+INFO: Find registry server-registry.xml at classpath resource
+Aug 21, 2012 5:04:46 PM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 4485 ms
+Aug 21, 2012 7:19:10 PM org.apache.coyote.http11.Http11AprProtocol init
+INFO: Initializing Coyote HTTP/1.1 on http-8081
+Aug 21, 2012 7:19:10 PM org.apache.coyote.ajp.AjpAprProtocol init
+SEVERE: Error initializing endpoint
+java.lang.Exception: Socket bind failed: [730048] Only one usage of each socket address (protocol/network address/port) is normally permitted.  
+	at org.apache.tomcat.util.net.AprEndpoint.init(AprEndpoint.java:576)
+	at org.apache.coyote.ajp.AjpAprProtocol.init(AjpAprProtocol.java:190)
+	at org.apache.catalina.connector.Connector.initialize(Connector.java:1017)
+	at org.apache.catalina.core.StandardService.initialize(StandardService.java:578)
+	at org.apache.catalina.core.StandardServer.initialize(StandardServer.java:782)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:504)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:524)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:267)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:432)
+Aug 21, 2012 7:19:10 PM org.apache.catalina.startup.Catalina load
+SEVERE: Catalina.start
+LifecycleException:  Protocol handler initialization failed: java.lang.Exception: Socket bind failed: [730048] Only one usage of each socket address (protocol/network address/port) is normally permitted.  
+	at org.apache.catalina.connector.Connector.initialize(Connector.java:1019)
+	at org.apache.catalina.core.StandardService.initialize(StandardService.java:578)
+	at org.apache.catalina.core.StandardServer.initialize(StandardServer.java:782)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:504)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:524)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:267)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:432)
+Aug 21, 2012 7:19:11 PM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 1621 ms
+Aug 21, 2012 7:19:11 PM org.apache.catalina.core.StandardService start
+INFO: Starting service Catalina
+Aug 21, 2012 7:19:11 PM org.apache.catalina.core.StandardEngine start
+INFO: Starting Servlet Engine: Apache Tomcat/5.5.25
+Aug 21, 2012 7:19:11 PM org.apache.catalina.core.StandardHost start
+INFO: XML validation disabled
+Aug 21, 2012 7:19:13 PM org.apache.coyote.http11.Http11AprProtocol start
+INFO: Starting Coyote HTTP/1.1 on http-8081
+Aug 21, 2012 7:19:13 PM org.apache.coyote.ajp.AjpAprProtocol start
+SEVERE: Error starting endpoint
+java.lang.Exception: Socket bind failed: [730048] Only one usage of each socket address (protocol/network address/port) is normally permitted.  
+	at org.apache.tomcat.util.net.AprEndpoint.init(AprEndpoint.java:576)
+	at org.apache.tomcat.util.net.AprEndpoint.start(AprEndpoint.java:686)
+	at org.apache.coyote.ajp.AjpAprProtocol.start(AjpAprProtocol.java:218)
+	at org.apache.catalina.connector.Connector.start(Connector.java:1090)
+	at org.apache.catalina.core.StandardService.start(StandardService.java:457)
+	at org.apache.catalina.core.StandardServer.start(StandardServer.java:700)
+	at org.apache.catalina.startup.Catalina.start(Catalina.java:552)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:295)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:433)
+Aug 21, 2012 7:19:13 PM org.apache.catalina.startup.Catalina start
+SEVERE: Catalina.start: 
+LifecycleException:  service.getName(): "Catalina";  Protocol handler start failed: java.lang.Exception: Socket bind failed: [730048] Only one usage of each socket address (protocol/network address/port) is normally permitted.  
+	at org.apache.catalina.connector.Connector.start(Connector.java:1097)
+	at org.apache.catalina.core.StandardService.start(StandardService.java:457)
+	at org.apache.catalina.core.StandardServer.start(StandardServer.java:700)
+	at org.apache.catalina.startup.Catalina.start(Catalina.java:552)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:295)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:433)
+Aug 21, 2012 7:19:13 PM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 1737 ms
+Aug 21, 2012 7:19:13 PM org.apache.catalina.core.StandardServer await
+SEVERE: StandardServer.await: create[8005]: 
+java.net.BindException: Address already in use: JVM_Bind
+	at java.net.PlainSocketImpl.socketBind(Native Method)
+	at java.net.PlainSocketImpl.bind(PlainSocketImpl.java:359)
+	at java.net.ServerSocket.bind(ServerSocket.java:319)
+	at java.net.ServerSocket.<init>(ServerSocket.java:185)
+	at org.apache.catalina.core.StandardServer.await(StandardServer.java:363)
+	at org.apache.catalina.startup.Catalina.await(Catalina.java:616)
+	at org.apache.catalina.startup.Catalina.start(Catalina.java:576)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:295)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:433)
+Aug 21, 2012 7:19:14 PM org.apache.coyote.http11.Http11AprProtocol pause
+INFO: Pausing Coyote HTTP/1.1 on http-8081
+Aug 21, 2012 7:19:14 PM org.apache.coyote.ajp.AjpAprProtocol pause
+INFO: Pausing Coyote AJP/1.3 on ajp-8009
+Aug 21, 2012 7:19:15 PM org.apache.catalina.core.StandardService stop
+INFO: Stopping service Catalina
+Aug 21, 2012 7:19:15 PM org.apache.coyote.http11.Http11AprProtocol destroy
+INFO: Stopping Coyote HTTP/1.1 on http-8081
+Aug 21, 2012 7:19:16 PM org.apache.catalina.connector.MapperListener destroy
+WARNING: Error unregistering MBeanServerDelegate
+java.lang.NullPointerException
+	at org.apache.catalina.connector.MapperListener.destroy(MapperListener.java:162)
+	at org.apache.catalina.connector.Connector.stop(Connector.java:1138)
+	at org.apache.catalina.core.StandardService.stop(StandardService.java:519)
+	at org.apache.catalina.core.StandardServer.stop(StandardServer.java:734)
+	at org.apache.catalina.startup.Catalina.stop(Catalina.java:602)
+	at org.apache.catalina.startup.Catalina$CatalinaShutdownHook.run(Catalina.java:645)
+Aug 21, 2012 7:19:16 PM org.apache.tomcat.util.net.AprEndpoint$Acceptor run
+SEVERE: Socket accept failed
+org.apache.tomcat.jni.Error: A blocking operation was interrupted by a call to WSACancelBlockingCall.  
+	at org.apache.tomcat.jni.Socket.accept(Native Method)
+	at org.apache.tomcat.util.net.AprEndpoint$Acceptor.run(AprEndpoint.java:1002)
+	at java.lang.Thread.run(Thread.java:619)
+Aug 21, 2012 7:19:16 PM org.apache.coyote.ajp.AjpAprProtocol destroy
+INFO: Stopping Coyote AJP/1.3 on ajp-8009
+Aug 21, 2012 8:20:44 PM org.apache.coyote.http11.Http11AprProtocol init
+INFO: Initializing Coyote HTTP/1.1 on http-8081
+Aug 21, 2012 8:20:44 PM org.apache.coyote.ajp.AjpAprProtocol init
+SEVERE: Error initializing endpoint
+java.lang.Exception: Socket bind failed: [730048] Only one usage of each socket address (protocol/network address/port) is normally permitted.  
+	at org.apache.tomcat.util.net.AprEndpoint.init(AprEndpoint.java:576)
+	at org.apache.coyote.ajp.AjpAprProtocol.init(AjpAprProtocol.java:190)
+	at org.apache.catalina.connector.Connector.initialize(Connector.java:1017)
+	at org.apache.catalina.core.StandardService.initialize(StandardService.java:578)
+	at org.apache.catalina.core.StandardServer.initialize(StandardServer.java:782)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:504)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:524)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:267)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:432)
+Aug 21, 2012 8:20:44 PM org.apache.catalina.startup.Catalina load
+SEVERE: Catalina.start
+LifecycleException:  Protocol handler initialization failed: java.lang.Exception: Socket bind failed: [730048] Only one usage of each socket address (protocol/network address/port) is normally permitted.  
+	at org.apache.catalina.connector.Connector.initialize(Connector.java:1019)
+	at org.apache.catalina.core.StandardService.initialize(StandardService.java:578)
+	at org.apache.catalina.core.StandardServer.initialize(StandardServer.java:782)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:504)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:524)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:267)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:432)
+Aug 21, 2012 8:20:44 PM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 545 ms
+Aug 21, 2012 8:20:44 PM org.apache.catalina.core.StandardService start
+INFO: Starting service Catalina
+Aug 21, 2012 8:20:44 PM org.apache.catalina.core.StandardEngine start
+INFO: Starting Servlet Engine: Apache Tomcat/5.5.25
+Aug 21, 2012 8:20:44 PM org.apache.catalina.core.StandardHost start
+INFO: XML validation disabled
+Aug 21, 2012 8:20:45 PM org.apache.coyote.http11.Http11AprProtocol start
+INFO: Starting Coyote HTTP/1.1 on http-8081
+Aug 21, 2012 8:20:45 PM org.apache.coyote.ajp.AjpAprProtocol start
+SEVERE: Error starting endpoint
+java.lang.Exception: Socket bind failed: [730048] Only one usage of each socket address (protocol/network address/port) is normally permitted.  
+	at org.apache.tomcat.util.net.AprEndpoint.init(AprEndpoint.java:576)
+	at org.apache.tomcat.util.net.AprEndpoint.start(AprEndpoint.java:686)
+	at org.apache.coyote.ajp.AjpAprProtocol.start(AjpAprProtocol.java:218)
+	at org.apache.catalina.connector.Connector.start(Connector.java:1090)
+	at org.apache.catalina.core.StandardService.start(StandardService.java:457)
+	at org.apache.catalina.core.StandardServer.start(StandardServer.java:700)
+	at org.apache.catalina.startup.Catalina.start(Catalina.java:552)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:295)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:433)
+Aug 21, 2012 8:20:45 PM org.apache.catalina.startup.Catalina start
+SEVERE: Catalina.start: 
+LifecycleException:  service.getName(): "Catalina";  Protocol handler start failed: java.lang.Exception: Socket bind failed: [730048] Only one usage of each socket address (protocol/network address/port) is normally permitted.  
+	at org.apache.catalina.connector.Connector.start(Connector.java:1097)
+	at org.apache.catalina.core.StandardService.start(StandardService.java:457)
+	at org.apache.catalina.core.StandardServer.start(StandardServer.java:700)
+	at org.apache.catalina.startup.Catalina.start(Catalina.java:552)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:295)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:433)
+Aug 21, 2012 8:20:46 PM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 1305 ms
+Aug 21, 2012 8:20:46 PM org.apache.catalina.core.StandardServer await
+SEVERE: StandardServer.await: create[8005]: 
+java.net.BindException: Address already in use: JVM_Bind
+	at java.net.PlainSocketImpl.socketBind(Native Method)
+	at java.net.PlainSocketImpl.bind(PlainSocketImpl.java:359)
+	at java.net.ServerSocket.bind(ServerSocket.java:319)
+	at java.net.ServerSocket.<init>(ServerSocket.java:185)
+	at org.apache.catalina.core.StandardServer.await(StandardServer.java:363)
+	at org.apache.catalina.startup.Catalina.await(Catalina.java:616)
+	at org.apache.catalina.startup.Catalina.start(Catalina.java:576)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:295)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:433)
+Aug 21, 2012 8:20:47 PM org.apache.coyote.http11.Http11AprProtocol pause
+INFO: Pausing Coyote HTTP/1.1 on http-8081
+Aug 21, 2012 8:20:47 PM org.apache.coyote.ajp.AjpAprProtocol pause
+INFO: Pausing Coyote AJP/1.3 on ajp-8009
+Aug 21, 2012 8:20:48 PM org.apache.catalina.core.StandardService stop
+INFO: Stopping service Catalina
+Aug 21, 2012 8:20:48 PM org.apache.coyote.http11.Http11AprProtocol destroy
+INFO: Stopping Coyote HTTP/1.1 on http-8081
+Aug 21, 2012 8:20:49 PM org.apache.tomcat.util.net.AprEndpoint$Acceptor run
+SEVERE: Socket accept failed
+org.apache.tomcat.jni.Error: A blocking operation was interrupted by a call to WSACancelBlockingCall.  
+	at org.apache.tomcat.jni.Socket.accept(Native Method)
+	at org.apache.tomcat.util.net.AprEndpoint$Acceptor.run(AprEndpoint.java:1002)
+	at java.lang.Thread.run(Thread.java:619)
+Aug 21, 2012 8:20:49 PM org.apache.catalina.connector.MapperListener destroy
+WARNING: Error unregistering MBeanServerDelegate
+java.lang.NullPointerException
+	at org.apache.catalina.connector.MapperListener.destroy(MapperListener.java:162)
+	at org.apache.catalina.connector.Connector.stop(Connector.java:1138)
+	at org.apache.catalina.core.StandardService.stop(StandardService.java:519)
+	at org.apache.catalina.core.StandardServer.stop(StandardServer.java:734)
+	at org.apache.catalina.startup.Catalina.stop(Catalina.java:602)
+	at org.apache.catalina.startup.Catalina$CatalinaShutdownHook.run(Catalina.java:645)
+Aug 21, 2012 8:20:49 PM org.apache.coyote.ajp.AjpAprProtocol destroy
+INFO: Stopping Coyote AJP/1.3 on ajp-8009
+Aug 21, 2012 8:23:17 PM org.apache.coyote.http11.Http11AprProtocol init
+INFO: Initializing Coyote HTTP/1.1 on http-8081
+Aug 21, 2012 8:23:17 PM org.apache.coyote.ajp.AjpAprProtocol init
+SEVERE: Error initializing endpoint
+java.lang.Exception: Socket bind failed: [730048] Only one usage of each socket address (protocol/network address/port) is normally permitted.  
+	at org.apache.tomcat.util.net.AprEndpoint.init(AprEndpoint.java:576)
+	at org.apache.coyote.ajp.AjpAprProtocol.init(AjpAprProtocol.java:190)
+	at org.apache.catalina.connector.Connector.initialize(Connector.java:1017)
+	at org.apache.catalina.core.StandardService.initialize(StandardService.java:578)
+	at org.apache.catalina.core.StandardServer.initialize(StandardServer.java:782)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:504)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:524)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:267)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:432)
+Aug 21, 2012 8:23:17 PM org.apache.catalina.startup.Catalina load
+SEVERE: Catalina.start
+LifecycleException:  Protocol handler initialization failed: java.lang.Exception: Socket bind failed: [730048] Only one usage of each socket address (protocol/network address/port) is normally permitted.  
+	at org.apache.catalina.connector.Connector.initialize(Connector.java:1019)
+	at org.apache.catalina.core.StandardService.initialize(StandardService.java:578)
+	at org.apache.catalina.core.StandardServer.initialize(StandardServer.java:782)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:504)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:524)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:267)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:432)
+Aug 21, 2012 8:23:17 PM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 628 ms
+Aug 21, 2012 8:23:17 PM org.apache.catalina.core.StandardService start
+INFO: Starting service Catalina
+Aug 21, 2012 8:23:17 PM org.apache.catalina.core.StandardEngine start
+INFO: Starting Servlet Engine: Apache Tomcat/5.5.25
+Aug 21, 2012 8:23:17 PM org.apache.catalina.core.StandardHost start
+INFO: XML validation disabled
+Aug 21, 2012 8:23:18 PM org.apache.coyote.http11.Http11AprProtocol start
+INFO: Starting Coyote HTTP/1.1 on http-8081
+Aug 21, 2012 8:23:18 PM org.apache.coyote.ajp.AjpAprProtocol start
+SEVERE: Error starting endpoint
+java.lang.Exception: Socket bind failed: [730048] Only one usage of each socket address (protocol/network address/port) is normally permitted.  
+	at org.apache.tomcat.util.net.AprEndpoint.init(AprEndpoint.java:576)
+	at org.apache.tomcat.util.net.AprEndpoint.start(AprEndpoint.java:686)
+	at org.apache.coyote.ajp.AjpAprProtocol.start(AjpAprProtocol.java:218)
+	at org.apache.catalina.connector.Connector.start(Connector.java:1090)
+	at org.apache.catalina.core.StandardService.start(StandardService.java:457)
+	at org.apache.catalina.core.StandardServer.start(StandardServer.java:700)
+	at org.apache.catalina.startup.Catalina.start(Catalina.java:552)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:295)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:433)
+Aug 21, 2012 8:23:18 PM org.apache.catalina.startup.Catalina start
+SEVERE: Catalina.start: 
+LifecycleException:  service.getName(): "Catalina";  Protocol handler start failed: java.lang.Exception: Socket bind failed: [730048] Only one usage of each socket address (protocol/network address/port) is normally permitted.  
+	at org.apache.catalina.connector.Connector.start(Connector.java:1097)
+	at org.apache.catalina.core.StandardService.start(StandardService.java:457)
+	at org.apache.catalina.core.StandardServer.start(StandardServer.java:700)
+	at org.apache.catalina.startup.Catalina.start(Catalina.java:552)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:295)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:433)
+Aug 21, 2012 8:23:19 PM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 1423 ms
+Aug 21, 2012 8:23:19 PM org.apache.catalina.core.StandardServer await
+SEVERE: StandardServer.await: create[8005]: 
+java.net.BindException: Address already in use: JVM_Bind
+	at java.net.PlainSocketImpl.socketBind(Native Method)
+	at java.net.PlainSocketImpl.bind(PlainSocketImpl.java:359)
+	at java.net.ServerSocket.bind(ServerSocket.java:319)
+	at java.net.ServerSocket.<init>(ServerSocket.java:185)
+	at org.apache.catalina.core.StandardServer.await(StandardServer.java:363)
+	at org.apache.catalina.startup.Catalina.await(Catalina.java:616)
+	at org.apache.catalina.startup.Catalina.start(Catalina.java:576)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:295)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:433)
+Aug 21, 2012 8:23:20 PM org.apache.coyote.http11.Http11AprProtocol pause
+INFO: Pausing Coyote HTTP/1.1 on http-8081
+Aug 21, 2012 8:23:20 PM org.apache.coyote.ajp.AjpAprProtocol pause
+INFO: Pausing Coyote AJP/1.3 on ajp-8009
+Aug 21, 2012 8:23:21 PM org.apache.catalina.core.StandardService stop
+INFO: Stopping service Catalina
+Aug 21, 2012 8:23:21 PM org.apache.coyote.http11.Http11AprProtocol destroy
+INFO: Stopping Coyote HTTP/1.1 on http-8081
+Aug 21, 2012 8:23:22 PM org.apache.catalina.connector.MapperListener destroy
+WARNING: Error unregistering MBeanServerDelegate
+java.lang.NullPointerException
+	at org.apache.catalina.connector.MapperListener.destroy(MapperListener.java:162)
+	at org.apache.catalina.connector.Connector.stop(Connector.java:1138)
+	at org.apache.catalina.core.StandardService.stop(StandardService.java:519)
+	at org.apache.catalina.core.StandardServer.stop(StandardServer.java:734)
+	at org.apache.catalina.startup.Catalina.stop(Catalina.java:602)
+	at org.apache.catalina.startup.Catalina$CatalinaShutdownHook.run(Catalina.java:645)
+Aug 21, 2012 8:23:22 PM org.apache.tomcat.util.net.AprEndpoint$Acceptor run
+SEVERE: Socket accept failed
+org.apache.tomcat.jni.Error: A blocking operation was interrupted by a call to WSACancelBlockingCall.  
+	at org.apache.tomcat.jni.Socket.accept(Native Method)
+	at org.apache.tomcat.util.net.AprEndpoint$Acceptor.run(AprEndpoint.java:1002)
+	at java.lang.Thread.run(Thread.java:619)
+Aug 21, 2012 8:23:22 PM org.apache.coyote.ajp.AjpAprProtocol destroy
+INFO: Stopping Coyote AJP/1.3 on ajp-8009
+Aug 21, 2012 10:59:26 PM org.apache.coyote.http11.Http11AprProtocol init
+INFO: Initializing Coyote HTTP/1.1 on http-8081
+Aug 21, 2012 10:59:26 PM org.apache.coyote.ajp.AjpAprProtocol init
+SEVERE: Error initializing endpoint
+java.lang.Exception: Socket bind failed: [730048] Only one usage of each socket address (protocol/network address/port) is normally permitted.  
+	at org.apache.tomcat.util.net.AprEndpoint.init(AprEndpoint.java:576)
+	at org.apache.coyote.ajp.AjpAprProtocol.init(AjpAprProtocol.java:190)
+	at org.apache.catalina.connector.Connector.initialize(Connector.java:1017)
+	at org.apache.catalina.core.StandardService.initialize(StandardService.java:578)
+	at org.apache.catalina.core.StandardServer.initialize(StandardServer.java:782)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:504)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:524)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:267)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:432)
+Aug 21, 2012 10:59:26 PM org.apache.catalina.startup.Catalina load
+SEVERE: Catalina.start
+LifecycleException:  Protocol handler initialization failed: java.lang.Exception: Socket bind failed: [730048] Only one usage of each socket address (protocol/network address/port) is normally permitted.  
+	at org.apache.catalina.connector.Connector.initialize(Connector.java:1019)
+	at org.apache.catalina.core.StandardService.initialize(StandardService.java:578)
+	at org.apache.catalina.core.StandardServer.initialize(StandardServer.java:782)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:504)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:524)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:267)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:432)
+Aug 21, 2012 10:59:26 PM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 624 ms
+Aug 21, 2012 10:59:26 PM org.apache.catalina.core.StandardService start
+INFO: Starting service Catalina
+Aug 21, 2012 10:59:26 PM org.apache.catalina.core.StandardEngine start
+INFO: Starting Servlet Engine: Apache Tomcat/5.5.25
+Aug 21, 2012 10:59:26 PM org.apache.catalina.core.StandardHost start
+INFO: XML validation disabled
+Aug 21, 2012 10:59:27 PM org.apache.coyote.http11.Http11AprProtocol start
+INFO: Starting Coyote HTTP/1.1 on http-8081
+Aug 21, 2012 10:59:27 PM org.apache.coyote.ajp.AjpAprProtocol start
+SEVERE: Error starting endpoint
+java.lang.Exception: Socket bind failed: [730048] Only one usage of each socket address (protocol/network address/port) is normally permitted.  
+	at org.apache.tomcat.util.net.AprEndpoint.init(AprEndpoint.java:576)
+	at org.apache.tomcat.util.net.AprEndpoint.start(AprEndpoint.java:686)
+	at org.apache.coyote.ajp.AjpAprProtocol.start(AjpAprProtocol.java:218)
+	at org.apache.catalina.connector.Connector.start(Connector.java:1090)
+	at org.apache.catalina.core.StandardService.start(StandardService.java:457)
+	at org.apache.catalina.core.StandardServer.start(StandardServer.java:700)
+	at org.apache.catalina.startup.Catalina.start(Catalina.java:552)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:295)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:433)
+Aug 21, 2012 10:59:27 PM org.apache.catalina.startup.Catalina start
+SEVERE: Catalina.start: 
+LifecycleException:  service.getName(): "Catalina";  Protocol handler start failed: java.lang.Exception: Socket bind failed: [730048] Only one usage of each socket address (protocol/network address/port) is normally permitted.  
+	at org.apache.catalina.connector.Connector.start(Connector.java:1097)
+	at org.apache.catalina.core.StandardService.start(StandardService.java:457)
+	at org.apache.catalina.core.StandardServer.start(StandardServer.java:700)
+	at org.apache.catalina.startup.Catalina.start(Catalina.java:552)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:295)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:433)
+Aug 21, 2012 10:59:27 PM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 1388 ms
+Aug 21, 2012 10:59:27 PM org.apache.catalina.core.StandardServer await
+SEVERE: StandardServer.await: create[8005]: 
+java.net.BindException: Address already in use: JVM_Bind
+	at java.net.PlainSocketImpl.socketBind(Native Method)
+	at java.net.PlainSocketImpl.bind(PlainSocketImpl.java:359)
+	at java.net.ServerSocket.bind(ServerSocket.java:319)
+	at java.net.ServerSocket.<init>(ServerSocket.java:185)
+	at org.apache.catalina.core.StandardServer.await(StandardServer.java:363)
+	at org.apache.catalina.startup.Catalina.await(Catalina.java:616)
+	at org.apache.catalina.startup.Catalina.start(Catalina.java:576)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:295)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:433)
+Aug 21, 2012 10:59:28 PM org.apache.coyote.http11.Http11AprProtocol pause
+INFO: Pausing Coyote HTTP/1.1 on http-8081
+Aug 21, 2012 10:59:28 PM org.apache.coyote.ajp.AjpAprProtocol pause
+INFO: Pausing Coyote AJP/1.3 on ajp-8009
+Aug 21, 2012 10:59:29 PM org.apache.catalina.core.StandardService stop
+INFO: Stopping service Catalina
+Aug 21, 2012 10:59:30 PM org.apache.coyote.http11.Http11AprProtocol destroy
+INFO: Stopping Coyote HTTP/1.1 on http-8081
+Aug 21, 2012 10:59:31 PM org.apache.catalina.connector.MapperListener destroy
+WARNING: Error unregistering MBeanServerDelegate
+java.lang.NullPointerException
+	at org.apache.catalina.connector.MapperListener.destroy(MapperListener.java:162)
+	at org.apache.catalina.connector.Connector.stop(Connector.java:1138)
+	at org.apache.catalina.core.StandardService.stop(StandardService.java:519)
+	at org.apache.catalina.core.StandardServer.stop(StandardServer.java:734)
+	at org.apache.catalina.startup.Catalina.stop(Catalina.java:602)
+	at org.apache.catalina.startup.Catalina$CatalinaShutdownHook.run(Catalina.java:645)
+Aug 21, 2012 10:59:31 PM org.apache.tomcat.util.net.AprEndpoint$Acceptor run
+SEVERE: Socket accept failed
+org.apache.tomcat.jni.Error: A blocking operation was interrupted by a call to WSACancelBlockingCall.  
+	at org.apache.tomcat.jni.Socket.accept(Native Method)
+	at org.apache.tomcat.util.net.AprEndpoint$Acceptor.run(AprEndpoint.java:1002)
+	at java.lang.Thread.run(Thread.java:619)
+Aug 21, 2012 10:59:31 PM org.apache.coyote.ajp.AjpAprProtocol destroy
+INFO: Stopping Coyote AJP/1.3 on ajp-8009
